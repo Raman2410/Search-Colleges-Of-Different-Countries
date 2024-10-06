@@ -1,0 +1,76 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    text-align: center;
+    background-color: rgb(184, 247, 184);
+}
+
+.container{
+            width:30rem;
+            height:40rem;
+            margin: 40px auto;
+            background-color: rgb(196, 240, 240);
+            padding:1rem;
+            border-radius: 1rem;
+}
+.container h1{
+     font-size: 2rem;
+     margin-bottom: 1rem;
+}
+.container button{
+    font-size: 1.3rem;
+    padding:.2rem;
+    border-radius: .5rem;
+    margin-left: 1rem;
+    background-color: rgb(184, 247, 226);
+}
+.list-container{
+    margin-top: 4rem ;
+    background-color: #297272f9;
+    border-radius: 1rem;
+    height:26rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.4rem; 
+    overflow: hidden; /* Hide overflow to contain the list */
+    position: relative;   
+}
+ul{
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll; /* Enables vertical scrolling */
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Space between list items */
+    padding: 10px;
+    box-sizing: border-box;
+}
+input{
+    height:2rem;
+    width:20rem;
+    border-radius: 1rem;
+    padding:1rem;
+    font-size: 1.2rem;
+}
+.search{
+    display:flex;
+    margin-left: 1rem;
+}
+
+.li{
+    margin:1rem;
+    list-style-type:none;
+    padding:1rem;
+    background-color: #edcdcd;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    flex-shrink: 0; 
+}
